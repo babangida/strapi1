@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cheches",
+  "info": {
+    "singularName": "cheche",
+    "pluralName": "cheches",
+    "displayName": "cheche",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nazva": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

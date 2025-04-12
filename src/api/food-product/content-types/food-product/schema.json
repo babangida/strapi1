@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "food_products",
+  "info": {
+    "singularName": "food-product",
+    "pluralName": "food-products",
+    "displayName": "FoodProduct",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lentil": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
